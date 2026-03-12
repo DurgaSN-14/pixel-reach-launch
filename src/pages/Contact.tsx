@@ -246,6 +246,50 @@ const Contact = () => {
           </div>
         </section>
 
+        {/* Newsletter Subscribe */}
+        <section className="py-16 bg-card border-y border-border">
+          <div className="container mx-auto px-4">
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              className="max-w-2xl mx-auto text-center"
+            >
+              <h2 className="text-2xl md:text-3xl font-bold mb-3">
+                Subscribe to Our <span className="gradient-text">Newsletter</span>
+              </h2>
+              <p className="text-muted-foreground mb-6">
+                Get the latest marketing tips, industry insights, and company updates delivered to your inbox.
+              </p>
+              <form
+                onSubmit={(e) => {
+                  e.preventDefault();
+                  const input = e.currentTarget.elements.namedItem("newsletter-email") as HTMLInputElement;
+                  if (input?.value) {
+                    toast({
+                      title: "Subscribed!",
+                      description: "You've been added to our newsletter.",
+                    });
+                    input.value = "";
+                  }
+                }}
+                className="flex flex-col sm:flex-row gap-3 max-w-md mx-auto"
+              >
+                <input
+                  type="email"
+                  name="newsletter-email"
+                  required
+                  placeholder="Enter your email"
+                  className="flex-1 px-4 py-3 rounded-lg bg-input border border-border focus:border-primary focus:outline-none focus:ring-1 focus:ring-primary transition-colors"
+                />
+                <Button variant="glow" size="lg" type="submit">
+                  Subscribe
+                </Button>
+              </form>
+            </motion.div>
+          </div>
+        </section>
+
         {/* Free Audit CTA */}
         <section className="py-24 relative overflow-hidden">
           <div className="absolute inset-0 gradient-primary opacity-10" />
