@@ -261,31 +261,24 @@ const Contact = () => {
               <p className="text-muted-foreground mb-6">
                 Get the latest marketing tips, industry insights, and company updates delivered to your inbox.
               </p>
-              <form
-                onSubmit={(e) => {
-                  e.preventDefault();
-                  const input = e.currentTarget.elements.namedItem("newsletter-email") as HTMLInputElement;
-                  if (input?.value) {
-                    toast({
-                      title: "Subscribed!",
-                      description: "You've been added to our newsletter.",
-                    });
-                    input.value = "";
-                  }
-                }}
-                className="flex flex-col sm:flex-row gap-3 max-w-md mx-auto"
-              >
-                <input
-                  type="email"
-                  name="newsletter-email"
-                  required
-                  placeholder="Enter your email"
-                  className="flex-1 px-4 py-3 rounded-lg bg-input border border-border focus:border-primary focus:outline-none focus:ring-1 focus:ring-primary transition-colors"
-                />
-                <Button variant="glow" size="lg" type="submit">
-                  Subscribe
-                </Button>
-              </form>
+             <form
+  action="https://app.us15.list-manage.com/subscribe/post?u=8590958d7942bf058e49ff511&id=a9d2c22d7e&f_id=007aa4e0f0"
+  method="post"
+  target="_blank"
+  className="flex flex-col sm:flex-row gap-3 max-w-md mx-auto"
+>
+  <input
+    type="email"
+    name="EMAIL"
+    required
+    placeholder="Enter your email"
+    className="flex-1 px-4 py-3 rounded-lg bg-input border border-border focus:border-primary focus:outline-none focus:ring-1 focus:ring-primary transition-colors"
+  />
+
+  <Button variant="glow" size="lg" type="submit">
+    Subscribe
+  </Button>
+</form>
             </motion.div>
           </div>
         </section>
