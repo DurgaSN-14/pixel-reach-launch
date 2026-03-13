@@ -67,7 +67,7 @@ const caseStudies = [
     industry: "Financial Services",
     results: [
       { metric: "App Downloads", value: "50K+" },
-      { metric: "User Acquisition Cost", value: "$2.50" },
+      { metric: "User Acquisition Cost", value: "₹200" },
       { metric: "Month 1 Revenue", value: "$180K" },
     ],
     description: "Executed a successful product launch campaign that exceeded all targets for a new fintech mobile application.",
