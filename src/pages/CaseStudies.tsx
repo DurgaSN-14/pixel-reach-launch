@@ -52,7 +52,7 @@ const caseStudies = [
   },
   {
     title: "B2B Lead Pipeline",
-    client: "IndustrialPro",
+    client: "Kongu Engineering Works",
     industry: "Manufacturing",
     results: [
       { metric: "Pipeline Value", value: "+$2.5M" },
