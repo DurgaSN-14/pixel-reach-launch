@@ -55,7 +55,7 @@ const caseStudies = [
     client: "Kongu Engineering Works",
     industry: "Manufacturing",
     results: [
-      { metric: "Pipeline Value", value: "+$2.5M" },
+      { metric: "Pipeline Value", value: "+₹20Cr" },
       { metric: "Lead Quality Score", value: "+85%" },
       { metric: "Sales Cycle", value: "-30%" },
     ],
