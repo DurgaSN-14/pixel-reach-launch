@@ -3,20 +3,20 @@ import { Star, Quote } from "lucide-react";
 
 const testimonials = [
   {
-    name: "Sarah Johnson",
-    role: "CEO, TechStart Inc.",
+    name: "Karthik Murugan",
+    role: "CEO, Kovai Textiles",
     content: "Pixel Reach transformed our online presence completely. Our organic traffic increased by 340% in just 6 months. Their data-driven approach is truly exceptional.",
     rating: 5,
   },
   {
-    name: "Michael Chen",
-    role: "Founder, E-Commerce Pro",
+    name: "Priya Lakshmi",
+    role: "Founder, Madurai Silks Online",
     content: "The ROI we've seen from their paid advertising campaigns is incredible. They don't just run ads – they build conversion machines. Highly recommend!",
     rating: 5,
   },
   {
-    name: "Emily Rodriguez",
-    role: "Marketing Director, Growth Labs",
+    name: "Senthil Kumar",
+    role: "Marketing Director, Thanjai Foods",
     content: "Working with Pixel Reach feels like having an in-house marketing team. Their strategic insights and creative execution are top-notch.",
     rating: 5,
   },

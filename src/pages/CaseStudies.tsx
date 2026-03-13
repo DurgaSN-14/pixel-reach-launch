@@ -8,7 +8,7 @@ import { Button } from "@/components/ui/button";
 const caseStudies = [
   {
     title: "E-Commerce Revenue Boost",
-    client: "Fashion Forward",
+    client: "Kanchipuram Silks Online",
     industry: "E-Commerce",
     results: [
       { metric: "Revenue Increase", value: "+340%" },
@@ -19,7 +19,7 @@ const caseStudies = [
   },
   {
     title: "SaaS Lead Generation",
-    client: "CloudTech Pro",
+    client: "Nellai Tech Solutions",
     industry: "Technology",
     results: [
       { metric: "Qualified Leads", value: "+280%" },
@@ -30,7 +30,7 @@ const caseStudies = [
   },
   {
     title: "Local Business Dominance",
-    client: "Metro Dental",
+    client: "Kaveri Dental Care",
     industry: "Healthcare",
     results: [
       { metric: "Local Traffic", value: "+420%" },
@@ -41,7 +41,7 @@ const caseStudies = [
   },
   {
     title: "Brand Awareness Campaign",
-    client: "GreenLife Organic",
+    client: "Thanjai Organic Farm",
     industry: "Consumer Goods",
     results: [
       { metric: "Brand Awareness", value: "+200%" },
@@ -52,10 +52,10 @@ const caseStudies = [
   },
   {
     title: "B2B Lead Pipeline",
-    client: "IndustrialPro",
+    client: "Kongu Engineering Works",
     industry: "Manufacturing",
     results: [
-      { metric: "Pipeline Value", value: "+$2.5M" },
+      { metric: "Pipeline Value", value: "+₹20Cr" },
       { metric: "Lead Quality Score", value: "+85%" },
       { metric: "Sales Cycle", value: "-30%" },
     ],
@@ -63,12 +63,12 @@ const caseStudies = [
   },
   {
     title: "Startup Launch Success",
-    client: "FinTech Now",
+    client: "Chettinad FinServ",
     industry: "Financial Services",
     results: [
       { metric: "App Downloads", value: "50K+" },
-      { metric: "User Acquisition Cost", value: "$2.50" },
-      { metric: "Month 1 Revenue", value: "$180K" },
+      { metric: "User Acquisition Cost", value: "₹200" },
+      { metric: "Month 1 Revenue", value: "₹1.5Cr" },
     ],
     description: "Executed a successful product launch campaign that exceeded all targets for a new fintech mobile application.",
   },
@@ -161,7 +161,7 @@ const CaseStudies = () => {
 
             <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
               {[
-                { value: "$50M+", label: "Revenue Generated" },
+                { value: "₹50Cr+", label: "Revenue Generated" },
                 { value: "500+", label: "Projects Completed" },
                 { value: "340%", label: "Avg. Traffic Increase" },
                 { value: "8.5x", label: "Avg. ROAS" },
