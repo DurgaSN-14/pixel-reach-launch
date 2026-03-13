@@ -63,7 +63,7 @@ const caseStudies = [
   },
   {
     title: "Startup Launch Success",
-    client: "FinTech Now",
+    client: "Chettinad FinServ",
     industry: "Financial Services",
     results: [
       { metric: "App Downloads", value: "50K+" },
