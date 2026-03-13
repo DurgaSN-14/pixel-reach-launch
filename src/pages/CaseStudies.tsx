@@ -19,7 +19,7 @@ const caseStudies = [
   },
   {
     title: "SaaS Lead Generation",
-    client: "CloudTech Pro",
+    client: "Nellai Tech Solutions",
     industry: "Technology",
     results: [
       { metric: "Qualified Leads", value: "+280%" },
