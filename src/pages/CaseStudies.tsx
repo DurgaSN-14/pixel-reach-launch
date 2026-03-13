@@ -161,7 +161,7 @@ const CaseStudies = () => {
 
             <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
               {[
-                { value: "$50M+", label: "Revenue Generated" },
+                { value: "₹50Cr+", label: "Revenue Generated" },
                 { value: "500+", label: "Projects Completed" },
                 { value: "340%", label: "Avg. Traffic Increase" },
                 { value: "8.5x", label: "Avg. ROAS" },
