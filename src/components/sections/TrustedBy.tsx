@@ -1,12 +1,12 @@
 import { motion } from "framer-motion";
 
 const brands = [
-  "TechCorp",
-  "InnovateCo",
-  "GrowthLabs",
-  "StartupX",
-  "ScaleFast",
-  "DigitalEdge",
+  "Chettinad Groups",
+  "Kovai Textiles",
+  "Madurai Silks",
+  "Nellai Tech",
+  "Thanjai Foods",
+  "Kongu Exports",
 ];
 
 const TrustedBy = () => {
