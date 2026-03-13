@@ -30,7 +30,7 @@ const caseStudies = [
   },
   {
     title: "Local Business Dominance",
-    client: "Metro Dental",
+    client: "Kaveri Dental Care",
     industry: "Healthcare",
     results: [
       { metric: "Local Traffic", value: "+420%" },
