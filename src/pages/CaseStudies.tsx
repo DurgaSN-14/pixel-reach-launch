@@ -8,7 +8,7 @@ import { Button } from "@/components/ui/button";
 const caseStudies = [
   {
     title: "E-Commerce Revenue Boost",
-    client: "Fashion Forward",
+    client: "Kanchipuram Silks Online",
     industry: "E-Commerce",
     results: [
       { metric: "Revenue Increase", value: "+340%" },
