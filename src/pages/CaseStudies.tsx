@@ -41,7 +41,7 @@ const caseStudies = [
   },
   {
     title: "Brand Awareness Campaign",
-    client: "GreenLife Organic",
+    client: "Thanjai Organic Farm",
     industry: "Consumer Goods",
     results: [
       { metric: "Brand Awareness", value: "+200%" },
